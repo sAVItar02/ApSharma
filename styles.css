@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(45deg, #0f5fbb, rgb(93, 196, 61));
+}
+
+#mainNavbar{
+	font-size: 1.5rem;
+	font-weight: 200;
+
+}
+
+#mainNavbar .nav-link{
+	color: white;
+}
+#mainNavbar .nav-link:hover{
+	color: #EA1C2C;
+}
+#mainNavbar .navbar-brand{
+	color: #EA1C2C;
+}
+
+#mainNavbar > #classes{
+    color: blue;
+}
+
+#mainNavbar > .nabar-nav > #classes > .nav-link{
+    color: black;
+}
+
+#class{
+    list-style: none;
+    width: 50%;
+    height: 40px;
+    position: absolute;
+    top: 50%;
+    background-color: red;
+}
+
+.blue{
+    background-color: black;
+}
